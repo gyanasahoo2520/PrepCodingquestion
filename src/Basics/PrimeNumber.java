@@ -2,12 +2,12 @@ package Basics;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int number=15;
+        int number=17;
         isPrime(number);
     }
     public static void isPrime(int n){
         int count =0;
-        if(n>2){
+        if(n<2){
             System.out.println("Not Prime");
             return;
         }
