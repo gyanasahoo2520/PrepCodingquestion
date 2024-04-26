@@ -2,7 +2,7 @@ package Basics;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {
-        int num=121;
+        int num=153;
         int len=Len(num);
         if(armstrong(num,len))
             System.out.println(num + " is Armstrong");
