@@ -2,7 +2,7 @@ package Basics;
 
 public class LeapYear {
     public static void main(String[] args) {
-        int year = 2024;
+        int year = 2100;
 
         //method-1
 //        if (year % 400 == 0)
