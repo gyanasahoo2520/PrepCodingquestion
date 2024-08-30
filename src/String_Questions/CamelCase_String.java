@@ -2,9 +2,9 @@ package String_Questions;
 
 public class CamelCase_String {
     public static void main(String[] args) {
-        String s="in get intern at geeksforgeeks";
-//        camelCase(s);
-        System.out.println(camelCase1(s));
+        String s="i get intern at geeksforgeeks";
+        camelCase(s);
+//        System.out.println(camelCase1(s));
     }
 
     private static void camelCase(String s) {
