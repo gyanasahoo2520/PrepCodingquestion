@@ -1,5 +1,10 @@
 package Basics;
 
+/*
+An Armstrong number is a positive integer that is equal to the sum of its digits,
+ each raised to the power of the number of digits in the number
+*/
+
 public class ArmstrongNumber {
     public static void main(String[] args) {
         int num=153;

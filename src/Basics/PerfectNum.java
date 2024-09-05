@@ -1,5 +1,10 @@
 package Basics;
 
+/*
+A perfect number is a positive integer that is equal to the sum of its positive
+ proper divisors, or divisors excluding the number itself
+*/
+
 public class PerfectNum {
     public static void main(String[] args) {
 //        int n = 28, sum = 0;
