@@ -8,9 +8,9 @@ public class Pallindrome {
 
     private static void checkPall(String s) {
         String str=s.toLowerCase();
-        StringBuffer temp=new StringBuffer();
+        StringBuilder temp=new StringBuilder();
         for(int i=str.length()-1;i>=0;i--){
-            temp=temp.append(str.charAt(i));
+            temp.append(str.charAt(i));
         }
         String ans=temp.toString();
         if(str.equals(ans))

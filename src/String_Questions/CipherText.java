@@ -21,7 +21,6 @@ public class CipherText {
                 chars[i] = decrementChar(chars[i]);
             }
         }
-
         return new String(chars);
     }
 

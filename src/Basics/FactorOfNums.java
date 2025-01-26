@@ -26,7 +26,7 @@ public class FactorOfNums {
                 System.out.print(i + " ");
             }
         }
-        // print thenumber itself too
+        // print the number itself too
         System.out.print(num);
     }
 }
