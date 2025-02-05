@@ -19,7 +19,7 @@ public class LeapYear {
 
         //method-2
         int flag = (year%400 == 0) || (year%4==0 && year%100!=0 ) ? 1 : 0;
-        if (flag ==1)
+        if (flag == 1)
         {
             System.out.println (year + " is a Leap Year");
         }
