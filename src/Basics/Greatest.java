@@ -4,7 +4,7 @@ public class Greatest {
     public static void main(String[] args) {
         int x=10, y=20, z=30;
         //  if else-if method
-        if(x>=y && y>=z)
+        if(x>=y && x>=z)
             System.out.println(x + " is greatest");
         else if(y>=x && y>=z)
             System.out.println(y + " is greatest");
@@ -14,7 +14,7 @@ public class Greatest {
             System.out.println("all numbers are same/equal");
 
         // another if else-if method
-        if(x>=y && y>=z)
+        if(x>=y && x>=z)
             System.out.println(x + " is greatest");
         else if(y>=x && y>=z)
             System.out.println(y + " is greatest");
